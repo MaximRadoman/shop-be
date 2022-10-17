@@ -1,0 +1,34 @@
+[
+  {
+    "id": "50a0ef08-a996-4330-a324-bd4f403898d4",
+    "title": "COFFEE GERALD ESTATE SL28 FULLY WASHED",
+    "country": "KENYA",
+    "price": 16.90,
+    "packaging": 250,
+    "image": "https://www.terresdecafe.com/5851-large_default/coffee-gerald-estate-sl28-fully-washed.jpg"
+  },
+  {
+    "id": "a5ef4e2a-8cc6-4ae5-87e2-bae82362e2cc",
+    "title": "COFFEE EL CUTO",
+    "country": "SALVADOR",
+    "price": 10.90,
+    "packaging": 250,
+    "image": "https://www.terresdecafe.com/5750-large_default/coffee-himalaya-el-cuto.jpg"
+  },
+  {
+    "id": "88dd1769-0674-42f3-a2ea-ea02e3abcf2c",
+    "title": "COFFEE YIRGACHEFFE CHELBESA HEIRLOOM - FULLY WASHED",
+    "country": "ETHIOPIA",
+    "price": 15.90,
+    "packaging": 250,
+    "image": "https://www.terresdecafe.com/4735-large_default/yirgacheffe-chelbesa-heirloom-fully-washed.jpg"
+  },
+  {
+    "id": "a2561642-ccf4-45ad-a7ce-c4e7e34d9683",
+    "title": "ORGANIC COFFEE YETI VILLAGE MOKA",
+    "country": "ETHIOPIA",
+    "price": 11.90,
+    "packaging": 250,
+    "image": "https://www.terresdecafe.com/5178-large_default/organic-yeti-village-moka.jpg"
+  }
+]

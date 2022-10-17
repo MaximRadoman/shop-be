@@ -1,0 +1,49 @@
+openapi: "3.0.1"
+info:
+  title: "dev-product-service"
+  version: "2022-10-10 08:15:46UTC"
+servers:
+- url: "https://khijagt6v9.execute-api.eu-west-1.amazonaws.com/{basePath}"
+  variables:
+    basePath:
+      default: ""
+tags:
+- name: "aws:cloudformation:stack-name"
+  x-amazon-apigateway-tag-value: "product-service-dev"
+- name: "aws:cloudformation:logical-id"
+  x-amazon-apigateway-tag-value: "HttpApi"
+- name: "aws:cloudformation:stack-id"
+  x-amazon-apigateway-tag-value: "arn:aws:cloudformation:eu-west-1:524882040706:stack/product-service-dev/ce5b3640-486e-11ed-ae83-0a98d61f9893"
+- name: "STAGE"
+  x-amazon-apigateway-tag-value: "dev"
+paths:
+  /products:
+    get:
+      responses:
+        default:
+          description: "Default response for GET /products"
+      x-amazon-apigateway-integration:
+        payloadFormatVersion: "2.0"
+        type: "aws_proxy"
+        httpMethod: "POST"
+        uri: "arn:aws:apigateway:eu-west-1:lambda:path/2015-03-31/functions/arn:aws:lambda:eu-west-1:524882040706:function:product-service-dev-getProductsList/invocations"
+        connectionType: "INTERNET"
+  /products/{id}:
+    get:
+      responses:
+        default:
+          description: "Default response for GET /products/{id}"
+      x-amazon-apigateway-integration:
+        payloadFormatVersion: "2.0"
+        type: "aws_proxy"
+        httpMethod: "POST"
+        uri: "arn:aws:apigateway:eu-west-1:lambda:path/2015-03-31/functions/arn:aws:lambda:eu-west-1:524882040706:function:product-service-dev-getProductsById/invocations"
+        connectionType: "INTERNET"
+    parameters:
+    - name: "id"
+      in: "path"
+      description: "Generated path parameter for id"
+      required: true
+      schema:
+        type: "string"
+x-amazon-apigateway-importexport-version: "1.0"
