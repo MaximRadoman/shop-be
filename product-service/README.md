@@ -1,6 +1,6 @@
 ## Task-3 
-API /products: https://khijagt6v9.execute-api.eu-west-1.amazonaws.com/products
-API /products/{id}: https://khijagt6v9.execute-api.eu-west-1.amazonaws.com/products/50a0ef08-a996-4330-a324-bd4f403898d4
+API /products:  https://11d4n98czg.execute-api.eu-west-1.amazonaws.com/products
+API /products/{id}:  https://11d4n98czg.execute-api.eu-west-1.amazonaws.com/products/50a0ef08-a996-4330-a324-bd4f403898d4
 FE integration: https://d2dy0u6tmlmfhk.cloudfront.net/
 
 Additional:
@@ -8,6 +8,34 @@ Additional:
 - SWAGGER documentation is created for Product Service (openapi.yaml)
 - Lambda handlers (getProductsList, getProductsById) code is written not in 1 single module
 - Main error scenarios are handled by API ("Product not found" error).
+
+## Task-4
+
+endpoints:
+POST - https://gwe95fanii.execute-api.eu-west-1.amazonaws.com/dev/product
+GET - https://11d4n98czg.execute-api.eu-west-1.amazonaws.com/products/{id}
+GET - https://11d4n98czg.execute-api.eu-west-1.amazonaws.com/products
+functions:
+getProductsById: product-service-dev-getProductsById (37 kB)
+getProductsList: product-service-dev-getProductsList (37 kB)
+createProduct: product-service-dev-createProduct (37 kB)
+
+
+Shop URL https://d2dy0u6tmlmfhk.cloudfront.net/
+
+Main tasks:
+1 - Task 4.1 - DONE
+3 - Task 4.2 - DONE
+4 - Task 4.3 - DONE
+5 - Your own Frontend application is integrated with Product Service - DONE
+
+Extra tasks:
+
+POST /products lambda functions returns error 400 status code if product data is invalid - DONE
+All lambdas return error 500 status code on any error (DB connection, any unhandled error in code) - DONE
+All lambdas do console.log for each incoming requests and their arguments - DONE
+Use RDS instance instead of DynamoDB tables - NOT IMPLEMENTED
+Transaction-based creation of product - DONE
 
 
 # Serverless - AWS Node.js Typescript

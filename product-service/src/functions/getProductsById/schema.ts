@@ -7,17 +7,14 @@ export default {
     "title": {
       "type": "string"
     },
-    "country": {
+    "description": {
       "type": "string"
     },
     "price": {
       "type": "number"
     },
-    "packaging": {
+    "count": {
       "type": "number"
-    },
-    "image": {
-      "type": "string"
     }
   },
   "required": [

@@ -1,6 +1,0 @@
-{
-  "headers": {
-    "Content-Type": "application/json"
-  },
-  "body": "[{\"id\":\"a2561642-ccf4-45ad-a7ce-c4e7e34d9683\",\"title\":\"COFFEE GERALD ESTATE SL28 FULLY WASHED\",\"country\":\"KENYA\",\"price\":16.9,\"packaging\":250,\"image\":\"https://www.terresdecafe.com/5851-large_default/coffee-gerald-estate-sl28-fully-washed.jpg\"}]"
-}

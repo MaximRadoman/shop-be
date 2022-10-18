@@ -1,0 +1,26 @@
+[
+  {
+    "id": "50a0ef08-a996-4330-a324-bd4f403898d4",
+    "title": "COFFEE GERALD ESTATE SL28 FULLY WASHED",
+    "description": "KENYA",
+    "price": "16.90"
+  },
+  {
+    "id": "a5ef4e2a-8cc6-4ae5-87e2-bae82362e2cc",
+    "title": "COFFEE EL CUTO",
+    "description": "SALVADOR",
+    "price": "10.90"
+  },
+  {
+    "id": "88dd1769-0674-42f3-a2ea-ea02e3abcf2c",
+    "title": "COFFEE YIRGACHEFFE CHELBESA HEIRLOOM - FULLY WASHED",
+    "description": "ETHIOPIA",
+    "price": "15.90"
+  },
+  {
+    "id": "a2561642-ccf4-45ad-a7ce-c4e7e34d9683",
+    "title": "ORGANIC COFFEE YETI VILLAGE MOKA",
+    "description": "ETHIOPIA",
+    "price": "11.90"
+  }
+]
